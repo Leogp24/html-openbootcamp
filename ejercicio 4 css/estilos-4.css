@@ -1,0 +1,16 @@
+#elemento-1{
+    color: red;
+}
+.lista-productos #elemento-1 {
+    font-size: 2rem;
+}
+
+h3{
+    background-color: antiquewhite;
+    width: 8rem;
+}
+
+ol, ul{
+    background-color: azure;
+    width: 6rem;
+}
