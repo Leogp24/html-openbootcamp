@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10 px;
+}
+
+.imagen-galeria{
+    width: 300px;
+}
+
+.TITULO{
+    position: relative;
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+}
