@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: beige;
+    display: flex;
+    font-size: 2rem;
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+div.elementos{
+    background-color: dodgerblue;
+    color: black;
+    display: flex;
+    padding: 10px;
+    gap: 5px;
+    flex-direction: column;
+}
+
+div.principal {
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+    flex-grow: 1;
+}
+
+@media (max-width: 640px) {
+    .container{
+        flex-direction: column-reverse;
+    }
+    div.elementos {
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+}
+
