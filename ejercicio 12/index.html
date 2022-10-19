@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elementos de Interés en Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <div class="bg-light p-5 rounded-3">
+            <div class="container-fluid py-5">
+                <h1 class="display-5 col-md-7 fw-bold">Te ayudamos a encontrar trabajo</h1>
+                <p class="col-md-8 fs-4">A lo largo de tu formación recibirás asesoramiento para mejorar tu CV y te prepararemos para realizar entrevistas con nuestras empresas colaboradoras.
+                Esta formación es gratuita para ti y NO se te descontará nada del salario de la oferta de trabajo que consigas.</p>
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    ¡empieza ya!
+                </button>
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">¡Bienvenido/a a OpenBootcamp!</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                        ¿Estas preparado/a para vivir una experiencia que cambiara tu vida?
+                        </div>
+                        <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">No</button>
+                        <button type="button" class="btn btn-primary">si</button>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="forms py-5">
+            <div class="mb-3">
+                <label for="nombre" class="form-label">Introduce tu nombre </label>
+                <input type="nombre" class="form-control" id="nombre" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text">escribe tu nombre de pila.</div>
+            </div>
+            <div class="mb-3">
+                <label for="tel" class="form-label">Introduce tu numero de contacto </label>
+                <input type="tel" class="form-control" id="tel" aria-describedby="tel">
+                <div id="emailHelp" class="form-tel"></div>
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Dejanos un mensaje</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+        </div>
+        <div class="card" style="width: 15rem;">
+            <img src="https://storage.googleapis.com/openvitae-prod/avatars/cl8nnj31z02jo1flf8eh3b50j.jpeg?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=openvitaebeta%40wired-coda-333713.iam.gserviceaccount.com%2F20221019%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20221019T052709Z&X-Goog-Expires=518400&X-Goog-SignedHeaders=host&X-Goog-Signature=6b4b3e1ac6d56c4c4c5ad9d6b179a5d21393c34b054c81e8fbea799589c93617d4b05ed68141e31e497949e31ffecb6792754da8ec58ce98ff825ac8ae2e587b60ee878efcd7370c921f99d377f28351f667ef8e647fb94fe2b53bbff021e4a566bc0034422f5f92a6d80e5e198071db086c0d87e67e3d8988a602b855677286823a9973f2f21bc17c9e6ec52f3c8c1f89eaf8393f6b1e8537bcfb3be0362307a5464f932d6c7fe8d52346da33fce1cd72dd32e6130a5714fbc5d2d09f3afefe36bea3c12fc5ebd5ac0c5bb6a05a346df1561aeb6afc716d38a45df555a0ef1ce837e9a3233df974a0b8638af27e4a142d688434cf0cbca5c3a8e2df68fe9d05" class="card-img-top" alt="imagen">
+            <div class="card-header">
+                <h3>Jorge Leonardo Garcia Pineda</h3>
+            </div>
+            <div class="card-body">
+                <h5 class="card-tittle">Descripcion</h5>
+                <p class="card-text">fullstack developer con experiencia en diseño, pruebas y mantenimiento de desarrollo web. Dominio de varios lenguajes de programacion y sistemas integrados. Experiencia en las herramientas y procedimientos de desarrollo más vanguardistas. Capaz de autogestión eficaz en proyectos independientes, con buenas habilidades de colaboración dentro de un equipo productivo.</p>
+                <h6>Habilidades</h6>
+                <ul class="list-group list-group">
+                    <li class="list-group-item">html y css</li>
+                    <li class="list-group-item">Bootstrap</li>
+                    <li class="list-group-item">javaScript</li>
+                    <li class="list-group-item">Java</li>
+                    <li class="list-group-item">Python</li>
+                    <li class="list-group-item">React.js</li>
+                    <li class="list-group-item">Angular.js</li>
+                    <li class="list-group-item">Git y Github</li>
+                </ul>
+            </div>
+            <div class="card-footer">
+                <h6>Correo</h6>
+                <a href="mailto:lalogp0724@gmail.com">lalogp0724@gmail.com</a>
+            </div>
+        </div>        
+        </div>
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</html>
